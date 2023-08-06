@@ -17,8 +17,7 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
-#### 模板来源
-https://juejin.cn/post/7228978346502946874
+
 #### 1、创建项目
 0. vscode 安装插件：Volar（确保开发vue2时的Vetur插件禁用），TypeScript Vue Plugin，Prettier - Code formatter，ESlint
 
