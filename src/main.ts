@@ -1,6 +1,7 @@
 import { createApp } from 'vue';
 import router from './router/index';
 import store from './store';
+import globalComponents from './register'; //注册全局组件
 import './style.css';
 import App from './App.vue';
 
@@ -15,5 +16,5 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component);
 }
 
-app.use(router).use(store);
+app.use(router).use(store).use(globalComponents);
 app.mount('#app');
